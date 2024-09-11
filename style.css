@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.warning-section, .content-section {
+    max-width: 600px;
+}
+
+button {
+    background-color: #e60000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+.cat-dance img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.rick-roll iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+}
